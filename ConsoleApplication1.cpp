@@ -2,10 +2,22 @@
 //
 
 #include <iostream>
+#include "ConsoleApplication1.h"
 
 int main()
 {
+    CDllDemo dllDemo;
+
+    int staticInt = nDllDemo;
+    int returnInt = fnDllDemo();
+
+    int sum = dllDemo.add(3, 4);
+
     std::cout << "Hello World!\n";
+    
+    std::cout << "Sum: " << sum << "\n";
+    std::cout << "nDllDemo: " << staticInt << "\n";
+    std::cout << "fnDllDemo: " << returnInt << "\n";
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
